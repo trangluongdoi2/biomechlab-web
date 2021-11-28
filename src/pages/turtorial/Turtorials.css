@@ -1,0 +1,25 @@
+.tableContents {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 60px;
+  justify-content: center;
+}
+
+.tab {
+  height: 80px;
+  width: 200px;
+  margin: 10px 80px;
+  justify-self: center;
+  font-size: 15px;
+}
+
+.projectContents {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 60px;
+  justify-content: center;
+}

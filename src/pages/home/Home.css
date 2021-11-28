@@ -1,0 +1,27 @@
+/* Edit style page home */
+.divHome {
+  margin-top: 500px;
+}
+.imgLab {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: center;
+}
+
+.imgLabspace {
+  /* width: 500px;
+  height: 400px; */
+  max-width: 100%;
+  max-height: 100%;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hometitle {
+  text-align: center;
+}

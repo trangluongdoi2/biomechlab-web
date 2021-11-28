@@ -1,0 +1,102 @@
+.navbarMain {
+  background: transparent;
+  /* background-color: black; */
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  padding: 0px 10px;
+  z-index: 99;
+  /* left: 0; */
+}
+.navbar.scroll {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  transition: 0.5s;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 0px 10px;
+  z-index: 99;
+}
+.navbar-container {
+  align-items: center;
+  margin-right: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin: 0px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.edit-navbar-icons {
+  font-size: 16px;
+  padding-right: 2px;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+.dropdown-content .dropList {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content .dropList:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-navbar-icons {
+  font-size: 16px;
+  padding-right: 2px;
+}
